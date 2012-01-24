@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Smart and Simple"
+description: "Wowsers"
+section: "1"
+prev: {
+	page: "less_is_more"
+	section: "1"
+}
+next: {
+	page: "common_pitfalls",
+	section: "1"
+}
+---
+

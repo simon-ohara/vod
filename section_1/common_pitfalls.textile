@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Common Pitfalls"
+description: "Wowsers"
+section: "1"
+prev: {
+	page: "smart_and_simple"
+	section: "1"
+}
+next: {
+	page: "common_pitfalls",
+	section: "1"
+}
+---
+
