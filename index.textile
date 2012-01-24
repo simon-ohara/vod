@@ -1,0 +1,5 @@
+---
+layout: default
+title: "Voyage of Discovery"
+description: "An appraisal of minimalist UI design"
+---
