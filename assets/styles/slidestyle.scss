@@ -3,17 +3,28 @@
 
 @import "html5";
 
-#bg-layer {
+.layer {
+	display: absolute;
+}
+
+.center {
+	width: 83.33%;
+	position: relative;
+	margin: 0 auto;
+}
+
+#bg {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 70%,#e7e7e7 95%);
-}
+	z-index: 1;
 
-#sml, #lrg {
-	position: absolute;
+	canvas {
+		position: absolute;
+	}
 }
 
 #sml {
@@ -26,12 +37,76 @@
 	right: 0;
 }
 
-#ui-foot {
+#foot {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	background: -webkit-linear-gradient(top, #191919 0%,#313131 15%,#2b2b2b 45%,#242424 100%);
-	min-height: 68px;
 	width: 100%;
 	border-top: 1px solid #ffffff;
+	z-index: 2;
+	color: #fff;
+
+	> div {
+		padding: 1.5em 0;
+		min-height: 25px;
+		background: url('/assets/images/SageLogo.png') 100% 50% no-repeat;
+	}
+
+	h3 {
+		font-size: 1.4em;
+		font-weight: normal;
+		display: inline;
+	}
+
+	small, date {
+		font-size: 1em;
+		margin: 0 0 0 1.5em;
+		color: #bbb;
+	}
+}
+
+.control {
+	position: absolute;
+	top: 0;
+	z-index: 4;
+	background: url('/assets/images/ControlSprite.png') no-repeat;
+	height: 100%;
+	width: 55px;
+	opacity: 0.5;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+#prev {
+	left: 0;
+	background-position: 100% 50%;
+}
+
+#next {
+	right: 0;
+	background-position: 0 50%;
+}
+
+#content {
+	position: relative;
+	z-index: 3;
+	margin: 10% auto;
+
+	h1, h2 {
+		font-family: "Foco Light", Arial, sans-serif;
+		font-weight: normal;
+	}
+
+	h1 {
+		color: #772059;
+		font-size: 2.5em;
+	}
+
+	h2 {
+		color: #b2b2b2;
+		font-size: 1.5em;
+	}
 }

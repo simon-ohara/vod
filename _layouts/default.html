@@ -3,34 +3,39 @@
   <head>
     <title>{{ site.name }} :: {{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/slidestyle.css">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/jquery.1.7.1.min.js"></script>
     <script type="text/javascript" src="assets/scripts/slide-bg.js"></script>
   </head>
   <body>
-    <section id="ui-root">
+    <div id="base">
 
-      <div id="bg-layer">
+      <div id="bg" class="layer">
         <canvas id="sml" class="bg-shape" width="369" height="262"></canvas>
         <canvas id="lrg" class="bg-shape" width="450" height="405"></canvas>
       </div>
 
-      <section id="ui-content">
-        <header>
-          <h1><a href="#"><span>{{ site.name }}</span></a></h1>
-          <nav class="clr">
-            <ul>
-              {% for link in site.primary_nav %}<li><a href="{{ link.url }}">{{ link.text }}</a></li>{% endfor %}
-            </ul>
-          </nav>
+      <div id="content">
+        <header class="center">
+          <hgroup>
+            <h1>{{ page.title }}</h1>
+            <h2>{{ page.description }}</h2>
+          </hgroup>
         </header>
 
-        <section>{{ content }}</section>
-      </section>
+        <section class="center">{{ content }}</section>
+      </div>
 
-      <footer id="ui-foot"> 
-        &copy; Sage Group
-      </footer>
+      <a id="prev" class="control" href="/section_{{ page.prev.section }}/{{ page.prev.page }}.html"></a>
+      <a id="next" class="control" href="/section_{{ page.next.section }}/{{ page.next.page }}.html"></a>
 
-    </section>
+      <div id="foot" class="layer"> 
+        <div class="center">
+          <h3>{{ site.name }}</h3>
+          <small>{{ site.author }}</small>
+          <date>{{ site.revised }}</date>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>

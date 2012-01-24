@@ -2,4 +2,17 @@
 layout: default
 title: "Voyage of Discovery"
 description: "An appraisal of minimalist UI design"
+section: "0"
+prev: {
+	page: "null",
+	section: "0"
+}
+next: {
+	page: "introduction",
+	section: "1"
+}
 ---
+
+blah blah blah
+
+{{ site.name }}
