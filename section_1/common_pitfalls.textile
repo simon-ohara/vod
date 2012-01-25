@@ -4,7 +4,7 @@ title: "Common Pitfalls"
 description: "Wowsers"
 section: "1"
 prev: {
-	page: "smart_and_simple"
+	page: "smart_and_simple",
 	section: "1"
 }
 next: {

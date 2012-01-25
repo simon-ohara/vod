@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Topics covered"
+description: ""
+section: "0"
+prev: {
+	page: "null",
+	section: "0"
+}
+next: {
+	page: "less_is_more",
+	section: "1"
+}
+---
+
+blah blah blah
+
+{{ site.name }}

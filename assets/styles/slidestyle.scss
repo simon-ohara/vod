@@ -3,6 +3,30 @@
 
 @import "html5";
 
+@font-face { 
+	font-family: Foco;
+	src: url('/assets/fonts/Foco/Foco.ttf');
+	font-weight: normal;
+}
+
+@font-face { 
+	font-family: Foco;
+	src: url('/assets/fonts/Foco/FocoLight.ttf');
+	font-weight: 100;
+} 
+
+@font-face { 
+	font-family: Foco;
+	src: url('/assets/fonts/Foco/FocoBlack.ttf');
+	font-weight: 500;
+} 
+
+@font-face { 
+	font-family: Foco;
+	src: url('/assets/fonts/Foco/FocoBold.ttf');
+	font-weight: bold;
+} 
+
 .layer {
 	display: absolute;
 }
@@ -44,7 +68,7 @@
 	background: -webkit-linear-gradient(top, #191919 0%,#313131 15%,#2b2b2b 45%,#242424 100%);
 	width: 100%;
 	border-top: 1px solid #ffffff;
-	z-index: 2;
+	z-index: 5;
 	color: #fff;
 
 	> div {
@@ -95,18 +119,33 @@
 	z-index: 3;
 	margin: 10% auto;
 
+	header {
+		margin-bottom: 4em;
+	}
+
 	h1, h2 {
-		font-family: "Foco Light", Arial, sans-serif;
-		font-weight: normal;
+		font-family: Foco, Arial, sans-serif;
+		font-weight: 100;
 	}
 
 	h1 {
 		color: #772059;
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 
 	h2 {
 		color: #b2b2b2;
-		font-size: 1.5em;
+		font-size: 2em;
+	}
+
+	ul {
+		list-style: url('/assets/images/Bullet.png');
+		font: 2.2em Foco;
+	}
+
+	li {
+		vertical-align: top;
+		margin: 0 0 0.5em 0;
+		padding: 0 0 0 0.5em;
 	}
 }

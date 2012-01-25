@@ -1,10 +1,11 @@
 ---
 layout: default
 title: "Less is More"
-description: "Wowsers"
+description: "An overcrowded view can inhibit workflow"
 section: "1"
 prev: {
-	section: "0"
+	page: "contents",
+	section: "1"
 }
 next: {
 	page: "smart_and_simple",
@@ -12,3 +13,8 @@ next: {
 }
 ---
 
+* Too much noise
+* Lack of negative space
+* Unclear navigation
+* Poor styling and colour scheme
+* Information overload!

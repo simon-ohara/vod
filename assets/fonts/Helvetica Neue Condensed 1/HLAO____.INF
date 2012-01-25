@@ -1,0 +1,27 @@
+FontName (HelveticaNeue-UltraLigCondObl)
+FullName (Helvetica 27 Ultra Light Condensed Oblique)
+AppleName (HelveticaNeue UltraLigCondObl)
+AppleFONDID 8753
+FamilyName (Helvetica Neue)
+version (001.000)
+isFixedPitch false
+CharacterSet (isoadobe)
+Encoding (StandardEncoding)
+ItalicAngle -12
+CapHeight 714
+UnderlinePosition -100
+UnderlineThickness 50
+StemWidth 20
+Serif false
+Pi false
+SuperiorBaseline 280
+MSMenuName (HelveticaNeue UltraLigCond)
+VPMenuName (HelveticaNeue UltraLigCond)
+WORDMenuName (HelveticaNeueUltraLigCond)
+VPTypefaceID 3321
+VPStyle (I)
+PCFileNamePrefix (HLAO_)
+PCLTypefaceID 20996
+PCLStrokeWeight -7
+PCLStyle 5
+

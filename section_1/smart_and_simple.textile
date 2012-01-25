@@ -1,10 +1,10 @@
 ---
 layout: default
 title: "Smart and Simple"
-description: "Wowsers"
+description: "The Sage One way of thinking"
 section: "1"
 prev: {
-	page: "less_is_more"
+	page: "less_is_more",
 	section: "1"
 }
 next: {
@@ -13,3 +13,8 @@ next: {
 }
 ---
 
+* Clean appearance
+* Reduced navigation
+* One primary action
+* Logical layout
+* Designed to demographic

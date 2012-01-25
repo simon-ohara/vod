@@ -8,7 +8,7 @@ prev: {
 	section: "0"
 }
 next: {
-	page: "less_is_more",
+	page: "contents",
 	section: "1"
 }
 ---

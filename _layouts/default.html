@@ -26,13 +26,13 @@
       </div>     
 
       {% unless page.prev.section == '0' %}
-        {% capture prev_link %}/{{ page.prev.page }}.html{% endcapture %}
+        {% capture prev_link %}/section_{{ page.prev.section }}/{{ page.prev.page }}.html{% endcapture %}
       {% else %}
         {% assign prev_link = '/' %}
       {% endunless %}
 
       {% unless page.next.section == '0' %}
-        {% capture next_link %}/{{ page.next.page }}.html{% endcapture %}
+        {% capture next_link %}/section_{{ page.next.section }}/{{ page.next.page }}.html{% endcapture %}
       {% else %}
         {% assign next_link = '/' %}
       {% endunless %}
