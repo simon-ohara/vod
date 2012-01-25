@@ -37,13 +37,18 @@
 	margin: 0 auto;
 }
 
+body {
+	font-family: Foco, Arial, sans-serif;
+	font-size: 20px;
+}
+
 #bg {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 70%,#e7e7e7 95%);
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 60%,#e7e7e7 90%);
 	z-index: 1;
 
 	canvas {
@@ -72,19 +77,19 @@
 	color: #fff;
 
 	> div {
-		padding: 1.5em 0;
+		padding: 1em 0;
 		min-height: 25px;
 		background: url('/assets/images/SageLogo.png') 100% 50% no-repeat;
 	}
 
 	h3 {
-		font-size: 1.4em;
+		font-size: 1em;
 		font-weight: normal;
 		display: inline;
 	}
 
 	small, date {
-		font-size: 1em;
+		font-size: 0.7em;
 		margin: 0 0 0 1.5em;
 		color: #bbb;
 	}
@@ -120,32 +125,31 @@
 	margin: 10% auto;
 
 	header {
-		margin-bottom: 4em;
+		margin-bottom: 3em;
 	}
 
 	h1, h2 {
-		font-family: Foco, Arial, sans-serif;
 		font-weight: 100;
 	}
 
 	h1 {
 		color: #772059;
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	h2 {
 		color: #b2b2b2;
-		font-size: 2em;
+		font-size: 1em;
 	}
 
 	ul {
 		list-style: url('/assets/images/Bullet.png');
-		font: 2.2em Foco;
+		font: 1.2em Foco;
 	}
 
 	li {
 		vertical-align: top;
-		margin: 0 0 0.5em 0;
+		margin: 0 0 0.5em 0.5em;
 		padding: 0 0 0 0.5em;
 	}
 }

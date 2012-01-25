@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Voyage of Discovery"
+title: "A Voyage of Discovery"
 description: "An appraisal of minimalist UI design"
 section: "0"
 prev: {
@@ -15,4 +15,3 @@ next: {
 
 blah blah blah
 
-{{ site.name }}
