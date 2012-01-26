@@ -75,7 +75,7 @@ body {
 	z-index: 1;
 
 	.wow_factor & {
-		background-position: -30% -35%;
+		background-position: -30% 65%;
 		background-repeat: repeat-x;
 	}
 
@@ -94,7 +94,7 @@ body {
 		background-repeat: no-repeat;
 	}
 	.styling & {
-		background-position: 50% 85%;
+		background-position: 50% 70%;
 		background-repeat: no-repeat;
 	}
 	.navigation & {
@@ -157,7 +157,8 @@ body {
 	width: 55px;
 	opacity: 0.5;
 
-	&:hover {
+	&:hover, &:focus {
+		outline: none;	
 		opacity: 1;
 	}
 }
