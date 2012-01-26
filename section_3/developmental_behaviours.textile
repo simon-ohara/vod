@@ -2,6 +2,7 @@
 layout: default
 title: "Developmental behaviours"
 description: "Our first physical interactions"
+image: "BabyBall.jpg"
 current: {
 	page: "developmental_behaviours",
 	section: "3"

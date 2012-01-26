@@ -2,6 +2,7 @@
 layout: default
 title: "Examples in practice"
 description: "A look at how others have implemented the minimal UI"
+image: ""
 current: {
 	page: "intro",
 	section: "4"

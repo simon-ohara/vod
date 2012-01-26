@@ -2,6 +2,7 @@
 layout: default
 title: "Unidentifiable primary function"
 description: "Too many calls to action"
+image: "PrimaryAction.png"
 current: {
 	page: "primary_function",
 	section: "2"
@@ -16,5 +17,4 @@ next: {
 }
 ---
 
-<< image portraying no primary function >>
 

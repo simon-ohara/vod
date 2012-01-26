@@ -2,6 +2,7 @@
 layout: default
 title: "Positive user experience"
 description: "Lets not frustrate the user!"
+image: ""
 current: {
 	page: "positive_ux",
 	section: "1"

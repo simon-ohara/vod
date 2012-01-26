@@ -58,7 +58,55 @@ body {
 
 	canvas {
 		position: absolute;
+		z-index: 2;
 	}
+
+	.hci & {
+		background: none;
+	}
+}
+
+#bg-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+
+	.wow_factor & {
+		background-position: -30% -35%;
+		background-repeat: repeat-x;
+	}
+
+	.developmental_behaviours & {
+		background-position: 50% 35%;
+		background-repeat: repeat-x;
+	}
+
+	.overcrowding & {
+		background-position: 50% 65%;
+		background-repeat: no-repeat;
+	}
+
+	.primary_function & {
+		background-position: 50% 65%;
+		background-repeat: no-repeat;
+	}
+	.styling & {
+		background-position: 50% 85%;
+		background-repeat: no-repeat;
+	}
+	.navigation & {
+		background-position: 50% 75%;
+		background-repeat: no-repeat;
+	}
+	.hci & {
+		background-position: 50% 75%;
+		background-repeat: no-repeat;
+	}
+
+
 }
 
 #sml {
@@ -179,7 +227,7 @@ body {
 	.full_screen_image & {
 		padding-left: 0;
 		h1 {
-			color: rgba(255,255,255,0.8);
+			color: rgba(255,255,255,0.95);
 			background: rgba(0,0,0,0.4);
 			border-radius: 1em;
 			padding: 1em;
@@ -191,7 +239,7 @@ body {
 	.contents & {
 		padding-left: 0;
 		header {
-			margin-bottom: 1em;
+			margin-bottom: 2em;
 		}
 		hgroup,	ol {
 			width: 60%;
@@ -204,6 +252,7 @@ body {
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			background: rgba(0, 0, 0, 0.05);
 			padding: 1em;
+			margin-bottom: 1em;
 		}
 	}
 }

@@ -2,6 +2,7 @@
 layout: default
 title: "Overcrowding"
 description: "A cluttered view can inhibit workflow"
+image: "OverCrowding.jpg"
 current: {
 	page: "overcrowding",
 	section: "2"
@@ -16,5 +17,5 @@ next: {
 }
 ---
 
-<< images of cluttered UIs >>
+
 

@@ -12,6 +12,9 @@
       <div id="bg" class="layer">
         <canvas id="sml" class="bg-shape" width="369" height="262"></canvas>
         <canvas id="lrg" class="bg-shape" width="450" height="405"></canvas>
+        {% unless page.image == '' %}
+        <div id="bg-img" style="background-image: url('/assets/images/{{ page.image }}');"></div>
+        {% endunless %}
       </div>
 
       <div id="content">

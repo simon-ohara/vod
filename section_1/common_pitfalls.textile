@@ -2,6 +2,7 @@
 layout: default
 title: "Common Pitfalls"
 description: "Wowsers"
+image: ""
 section: "1"
 prev: {
 	page: "smart_and_simple",

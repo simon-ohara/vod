@@ -2,6 +2,7 @@
 layout: default
 title: "Unclear navigation"
 description: "Exit and progression points"
+image: "Navigation.jpg"
 current: {
 	page: "navigation",
 	section: "2"

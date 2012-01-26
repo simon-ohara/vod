@@ -2,6 +2,7 @@
 layout: default
 title: "Common pitfalls"
 description: "Things that dont help the user experience"
+image: ""
 current: {
 	page: "intro",
 	section: "2"

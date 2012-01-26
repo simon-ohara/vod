@@ -2,6 +2,7 @@
 layout: default
 title: "Lack of negative space"
 description: "Fundamental layout theory of graphic design"
+image: ""
 current: {
 	page: "negative_space",
 	section: "2"

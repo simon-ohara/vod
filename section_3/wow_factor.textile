@@ -2,6 +2,7 @@
 layout: default
 title: "Lets not forget the wow factor!"
 description: "Dont cut out too much..."
+image: "SuperCar.jpg"
 current: {
 	page: "wow_factor",
 	section: "3"

@@ -2,6 +2,7 @@
 layout: default
 title: "Stripping it all back"
 description: "Lets learn from the pitfalls"
+image: ""
 current: {
 	page: "strip_back",
 	section: "3"
@@ -21,5 +22,5 @@ next: {
 * Allow the user to find and focus on an object of interest
 * Interaction reveals functional possibilities
 * Similar objects elicit consistent responses forming the learning cycle
-* Guidance without hinderance – intro new users / new features
+* Guidance without hinderance
 

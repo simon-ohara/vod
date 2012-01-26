@@ -2,6 +2,7 @@
 layout: default
 title: "Enhanced functional process"
 description: "Software should make tasks quicker &amp; easier"
+image: ""
 current: {
 	page: "enhanced_function",
 	section: "1"

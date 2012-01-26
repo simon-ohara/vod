@@ -2,6 +2,7 @@
 layout: default
 title: "The Voyage of Discovery"
 description: "Its all about uncovering the possibilities"
+image: ""
 current: {
 	page: "intro",
 	section: "3"

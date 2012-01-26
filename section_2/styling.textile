@@ -2,6 +2,7 @@
 layout: default
 title: "Poor styling &amp; colour scheme"
 description: "Colour coding can categorise &amp; portray meaning"
+image: "ColourScheme.png"
 current: {
 	page: "styling",
 	section: "2"
@@ -16,5 +17,5 @@ next: {
 }
 ---
 
-<< image portraying colour scheme >>
+
 

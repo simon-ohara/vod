@@ -2,6 +2,7 @@
 layout: default
 title: "What are we trying to achieve?"
 description: "Back to basics to identify the problem"
+image: ""
 current: {
 	page: "intro",
 	section: "1"
