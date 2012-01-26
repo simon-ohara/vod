@@ -1,8 +1,11 @@
 ---
 layout: default
 title: "A Voyage of Discovery"
-description: "An appraisal of minimalist UI design"
-section: "0"
+description: "An appraisal of minimal UI design"
+current: {
+	page: "intro",
+	section: "0"
+}
 prev: {
 	page: "null",
 	section: "0"
@@ -13,5 +16,9 @@ next: {
 }
 ---
 
-blah blah blah
+
+h3. Simon O'Hara
+
+Senior Web Applications Designer
+Sage Online R&amp;D
 

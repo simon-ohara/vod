@@ -2,17 +2,23 @@
 layout: default
 title: "Topics covered"
 description: ""
-section: "0"
+current: {
+	page: "contents",
+	section: "1"
+}
 prev: {
 	page: "null",
 	section: "0"
 }
 next: {
-	page: "less_is_more",
+	page: "intro",
 	section: "1"
 }
 ---
 
-blah blah blah
-
-{{ site.name }}
+# What are we trying to achieve?
+# Common pitfalls
+# The Voyage of Discovery
+# The minimal UI paradigm
+# Examples in practice
+# User testing

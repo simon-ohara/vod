@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Enhanced functional process"
+description: "Software should make tasks quicker &amp; easier"
+current: {
+	page: "enhanced_function",
+	section: "1"
+}
+prev: {
+	page: "hci",
+	section: "1"
+}
+next: {
+	page: "positive_ux",
+	section: "1"
+}
+---
+
+* Effective operation of the software
+* An aid to making operational decisions

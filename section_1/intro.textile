@@ -1,0 +1,18 @@
+---
+layout: default
+title: "What are we trying to achieve?"
+description: "Back to basics to identify the problem"
+current: {
+	page: "intro",
+	section: "1"
+}
+prev: {
+	page: "contents",
+	section: "1"
+}
+next: {
+	page: "hci",
+	section: "1"
+}
+---
+

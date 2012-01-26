@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Facilitate Human-Computer Interaction"
+description: "The point at which the two meet"
+current: {
+	page: "hci",
+	section: "1"
+}
+prev: {
+	page: "intro",
+	section: "1"
+}
+next: {
+	page: "enhanced_function",
+	section: "1"
+}
+---
+
+* At a basic level the computer is a machine / tool
+* It is an extension of our being
+* It allows us to exert our will on the virtual world

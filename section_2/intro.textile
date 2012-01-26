@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Common pitfalls"
+description: "Things that dont help the user experience"
+current: {
+	page: "intro",
+	section: "2"
+}
+prev: {
+	page: "positive_ux",
+	section: "1"
+}
+next: {
+	page: "overcrowding",
+	section: "2"
+}
+---
+
