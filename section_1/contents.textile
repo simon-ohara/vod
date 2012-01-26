@@ -19,6 +19,5 @@ next: {
 # What are we trying to achieve?
 # Common pitfalls
 # The Voyage of Discovery
-# The minimal UI paradigm
 # Examples in practice
 # User testing

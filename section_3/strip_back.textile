@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Stripping it all back"
+description: "Lets learn from the pitfalls"
+current: {
+	page: "strip_back",
+	section: "3"
+}
+prev: {
+	page: "developmental_behaviours",
+	section: "3"
+}
+next: {
+	page: "wow_factor",
+	section: "3"
+}
+---
+
+* Access features on a 'need to know' basis
+* A reactive interface providing suitable feedback
+* Allow the user to find and focus on an object of interest
+* Interaction reveals functional possibilities
+* Similar objects elicit consistent responses forming the learning cycle
+* Guidance without hinderance – intro new users / new features
+

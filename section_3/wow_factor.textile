@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Lets not forget the wow factor!"
+description: "Dont cut out too much..."
+current: {
+	page: "wow_factor",
+	section: "3"
+}
+prev: {
+	page: "strip_back",
+	section: "3"
+}
+next: {
+	page: "smart_and_simple",
+	section: "3"
+}
+---
+
+* Visual appeal of working environment
+* Its easier to sell something that is pretty
+* Stand out from the competitors
+

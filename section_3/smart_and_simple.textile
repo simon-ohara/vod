@@ -2,14 +2,17 @@
 layout: default
 title: "Smart and Simple"
 description: "The Sage One way of thinking"
-section: "1"
+current: {
+	page: "smart_and_simple",
+	section: "3"
+}
 prev: {
-	page: "less_is_more",
-	section: "1"
+	page: "wow_factor",
+	section: "3"
 }
 next: {
-	page: "common_pitfalls",
-	section: "1"
+	page: "intro",
+	section: "4"
 }
 ---
 
@@ -17,4 +20,4 @@ next: {
 * Reduced navigation
 * One primary action
 * Logical layout
-* Designed to demographic
+* Designed to the demographic

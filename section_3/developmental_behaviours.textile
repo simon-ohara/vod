@@ -1,20 +1,20 @@
 ---
 layout: default
-title: "Unidentifiable primary function"
-description: "Too many calls to action"
+title: "Developmental behaviours"
+description: "Our first physical interactions"
 current: {
-	page: "primary_function",
-	section: "2"
+	page: "developmental_behaviours",
+	section: "3"
 }
 prev: {
-	page: "styling",
-	section: "2"
+	page: "intro",
+	section: "3"
 }
 next: {
-	page: "intro",
+	page: "strip_back",
 	section: "3"
 }
 ---
 
-<< image portraying no primary function >>
+<< image portraying young child >>
 
