@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Poor styling &amp; colour scheme"
+description: "Colour coding can categorise &amp; portray meaning"
+current: {
+	page: "styling",
+	section: "2"
+}
+prev: {
+	page: "navigation",
+	section: "2"
+}
+next: {
+	page: "primary_function",
+	section: "2"
+}
+---
+
+<< image portraying colour scheme >>
+

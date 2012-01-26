@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Unclear navigation"
+description: "Exit and progression points"
+current: {
+	page: "navigation",
+	section: "2"
+}
+prev: {
+	page: "negative_space",
+	section: "2"
+}
+next: {
+	page: "styling",
+	section: "2"
+}
+---
+
+<< image portraying unclear navigation >>
+

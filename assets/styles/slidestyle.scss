@@ -51,6 +51,11 @@ body {
 	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 60%,#e7e7e7 90%);
 	z-index: 1;
 
+	.full_screen_image & {
+		background-position: 50% 50%;
+
+	}
+
 	canvas {
 		position: absolute;
 	}
@@ -168,6 +173,18 @@ body {
 
 		h2 {
 			font-size: 2em;
+		}
+	}
+
+	.full_screen_image & {
+		padding-left: 0;
+		h1 {
+			color: rgba(255,255,255,0.8);
+			background: rgba(0,0,0,0.4);
+			border-radius: 1em;
+			padding: 1em;
+			font-weight: normal;
+			text-align: center;
 		}
 	}
 

@@ -1,0 +1,20 @@
+---
+layout: full_screen_image
+title: "Wheres Wally??"
+description: ""
+image: "wheres_wally.jpg"
+current: {
+	page: "intro full_screen_image",
+	section: "2"
+}
+prev: {
+	page: "overcrowding",
+	section: "2"
+}
+next: {
+	page: "negative_space",
+	section: "2"
+}
+---
+
+

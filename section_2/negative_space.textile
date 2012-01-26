@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Lack of negative space"
+description: "Fundamental layout theory of graphic design"
+current: {
+	page: "negative_space",
+	section: "2"
+}
+prev: {
+	page: "wheres_wally",
+	section: "2"
+}
+next: {
+	page: "navigation",
+	section: "2"
+}
+---
+
+<< image portraying negative space >>
+

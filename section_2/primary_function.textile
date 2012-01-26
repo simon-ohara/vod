@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Unidentifiable primary function"
+description: "Too many calls to action"
+current: {
+	page: "primary_function",
+	section: "2"
+}
+prev: {
+	page: "styling",
+	section: "2"
+}
+next: {
+	page: "intro",
+	section: "3"
+}
+---
+
+<< image portraying no primary function >>
+

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ site.name }} :: {{ site.author }}</title>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/slidestyle.css">
+    <script type="text/javascript" src="/assets/scripts/jquery.1.7.1.min.js"></script>
+  </head>
+  <body class="{{ page.current.page }}">
+    <div id="base">
+
+      <div id="bg" class="layer"  style="background-image: url('/assets/images/{{ page.image }}');"></div>
+
+      <div id="content">
+        <header class="center">
+          <hgroup>
+            <h1>{{ page.title }}</h1>
+            <h2>{{ page.description }}</h2>
+          </hgroup>
+        </header>
+
+        <section class="center">{{ content }}</section>
+      </div>     
+
+      {% unless page.prev.section == '0' %}
+        {% capture prev_link %}/section_{{ page.prev.section }}/{{ page.prev.page }}.html{% endcapture %}
+      {% else %}
+        {% assign prev_link = '/' %}
+      {% endunless %}
+
+      {% unless page.next.section == '0' %}
+        {% capture next_link %}/section_{{ page.next.section }}/{{ page.next.page }}.html{% endcapture %}
+      {% else %}
+        {% assign next_link = '/' %}
+      {% endunless %}
+
+      <a id="prev" class="control" href="{{ prev_link }}"></a>
+      <a id="next" class="control" href="{{ next_link }}"></a>
+
+      <div id="foot" class="layer"> 
+        <div class="center">
+          <h3>{{ site.name }}</h3>
+          <small>{{ site.author }}</small>
+          <small>{{ site.department }}</small>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

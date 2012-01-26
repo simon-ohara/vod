@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Overcrowding"
+description: "A cluttered view can inhibit workflow"
+current: {
+	page: "overcrowding",
+	section: "2"
+}
+prev: {
+	page: "intro",
+	section: "2"
+}
+next: {
+	page: "wheres_wally",
+	section: "2"
+}
+---
+
+<< images of cluttered UIs >>
+

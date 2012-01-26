@@ -1,0 +1,19 @@
+---
+layout: default
+title: "The Voyage of Discovery"
+description: "Its all about uncovering the possibilities"
+current: {
+	page: "intro",
+	section: "3"
+}
+prev: {
+	page: "primary_function",
+	section: "2"
+}
+next: {
+	page: "developmental_behaviours",
+	section: "3"
+}
+---
+
+
