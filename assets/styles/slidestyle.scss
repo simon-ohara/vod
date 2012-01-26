@@ -61,6 +61,8 @@ body {
 		z-index: 2;
 	}
 
+	.positive_ux &,
+	.smart_and_simple &,
 	.hci & {
 		background: none;
 	}
@@ -84,6 +86,7 @@ body {
 		background-repeat: repeat-x;
 	}
 
+	.negative_space &,
 	.overcrowding & {
 		background-position: 50% 65%;
 		background-repeat: no-repeat;
@@ -105,7 +108,14 @@ body {
 		background-position: 50% 75%;
 		background-repeat: no-repeat;
 	}
-
+	.smart_and_simple & {
+		background-position: 80% 50%;
+		background-repeat: no-repeat;
+	}
+	.positive_ux & {
+		background-position: 80% 50%;
+		background-repeat: no-repeat;
+	}
 
 }
 
@@ -200,6 +210,10 @@ body {
 	ul {
 		list-style: url('/assets/images/Bullet.png');
 		font: 1.2em Foco;
+
+		.developmental_behaviours & {
+			width: 50%;
+		}
 	}
 
 	li {
@@ -255,6 +269,20 @@ body {
 			padding: 1em;
 			margin-bottom: 1em;
 		}
+	}
+}
+
+.intro a[target='_blank'] {
+	background: rgba(0,0,0,0.05);
+	padding: 0.5em 1em;
+	border-radius: 1em;
+	display: inline-block;
+	margin: 0 1em;
+	text-decoration: none;
+
+	&:hover, &:focus {
+		outline: none;
+		background: rgba(0,0,0,0.1);
 	}
 }
 

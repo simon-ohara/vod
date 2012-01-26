@@ -17,5 +17,9 @@ next: {
 }
 ---
 
-<< image portraying young child >>
+* A child is drawn to objects of interest
+* The child interacts through play
+* Object properties are learned
+* Similar objects should conform
+* The concept is adapted further
 

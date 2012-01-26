@@ -2,7 +2,7 @@
 layout: default
 title: "Lack of negative space"
 description: "Fundamental layout theory of graphic design"
-image: ""
+image: "OverCrowding.jpg"
 current: {
 	page: "negative_space",
 	section: "2"
@@ -16,6 +16,3 @@ next: {
 	section: "2"
 }
 ---
-
-<< image portraying negative space >>
-
