@@ -1,3 +1,4 @@
+exclude: [ Gemfile, Gemfile.lock, Procfile, vendor ]
 name: "A Voyage of Discovery"
 author: "Simon O'Hara"
 department: "Sage Online R&amp;D"
