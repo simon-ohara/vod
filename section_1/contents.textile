@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Topics covered"
+title: "Overview"
 description: ""
 image: ""
 current: {
@@ -21,4 +21,4 @@ next: {
 # Common pitfalls
 # The Voyage of Discovery
 # Examples in practice
-# User testing
+# User testing - open discussion

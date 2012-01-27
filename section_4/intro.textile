@@ -12,8 +12,8 @@ prev: {
 	section: "3"
 }
 next: {
-	page: "base_camp",
-	section: "4"
+	page: "",
+	section: "0"
 }
 ---
 
