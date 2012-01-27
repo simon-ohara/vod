@@ -1,4 +1,4 @@
-exclude: [ Gemfile, Gemfile.lock, Procfile, vendor ]
+exclude: [ README.textile, Voyage-of-Discovery_notes.doc, Gemfile, Gemfile.lock, Procfile ]
 name: "A Voyage of Discovery"
 author: "Simon O'Hara"
 department: "Sage Online R&amp;D"
