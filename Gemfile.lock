@@ -30,6 +30,10 @@ GEM
       syntax (>= 1.0.0)
     mime-types (1.17.2)
     posix-spawn (0.3.6)
+    rack (1.4.1)
+    rack-jekyll (0.3.5)
+      jekyll
+      rack
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rubyzip (0.9.5)
@@ -45,4 +49,5 @@ DEPENDENCIES
   haml
   heroku
   jekyll
+  rack-jekyll
   sass
