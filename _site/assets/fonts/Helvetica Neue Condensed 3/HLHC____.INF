@@ -1,0 +1,27 @@
+FontName (HelveticaNeue-HeavyCond)
+FullName (Helvetica 87 Heavy Condensed)
+AppleName (HelveticaNeue HeavyCond)
+AppleFONDID 5827
+FamilyName (Helvetica Neue)
+version (001.000)
+isFixedPitch false
+CharacterSet (isoadobe)
+Encoding (StandardEncoding)
+ItalicAngle 0
+CapHeight 714
+UnderlinePosition -100
+UnderlineThickness 50
+StemWidth 162
+Serif false
+Pi false
+SuperiorBaseline 280
+MSMenuName (HelveticaNeue MediumCond)
+VPMenuName (HelveticaNeue MediumCond)
+WORDMenuName (HelveticaNeueMediumCond)
+VPTypefaceID 3327
+VPStyle (B)
+PCFileNamePrefix (HLHC_)
+PCLTypefaceID 20996
+PCLStrokeWeight 4
+PCLStyle 4
+
